@@ -1,0 +1,170 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: rgb(37, 193, 167);
+    font-size: 80px;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(37, 193, 167);
+    padding-bottom: 10px;
+    
+    
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+    
+
+}
+.top{
+    background-color: rgb(234, 246, 246);
+    position: relative;
+    
+    padding-top: 100px;
+    
+    
+}
+.my-img {
+    border-radius: 49%;
+    width: 20%;
+    height: 20%;
+}
+
+.middle-container {
+    margin: 100px 0;
+   
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+    
+}
+a {
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  
+}
+a:hover {
+    color: #EAF6F6;
+}
+
+.desi {
+    text-decoration: underline;  /*desi me underline karne ke lia span use kiya because it is inline not like paragraph block property*/
+}
+/**/
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 45px;
+
+}
+.bottom-cloud {
+    position: absolute;
+}
+.skill1 {
+    width: 25%;
+    height: 25%;
+    float: left; /*"float" is just for ki text design and developmen and all image ke side me aa jaye*/
+    margin-right: 20px; /*if we want that kewal heading image ke pass ho baki para neeche to "Clear" property use*/
+}
+.skill2 {
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-row {
+    
+    width: 50%;
+    margin: 50px auto 180px auto;
+   
+    text-align: left;
+    line-height: 2;
+    padding: 0px;
+}
+/*we will use the CSS taken from button genrator website*/
+/*
+.button {
+    background-color: #32c3c3;
+  border-radius: 9px;
+  color: white;
+  padding: 9px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  border-color: white;
+  
+}
+*/
+hr {
+    width: 5%;
+    border-style: dotted;
+    border-width: 0 0 6px;
+    color: #cdd8d8;
+    margin: 100px auto;
+}
+.profile {
+    margin-bottom: 60px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+.contact-message {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+/*for button CSS*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, 2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, 2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, 2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, 2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, 2bc4ad);
+    text-decoration: none;
+  }
+  .last-para {
+    color: #EAF6F6;
+    padding: 20px 0px;
+    font-size: small;
+  }
+  
